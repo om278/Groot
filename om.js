@@ -32,10 +32,10 @@ recognition.addEventListener("result", (e) => {
       p.innerText = "My Name is Badshaha";
       texts.appendChild(p);
     }
-    if (text.includes("open my YouTube")) {
+    if (text.includes("open YouTube")) {
       p = document.createElement("p");
       p.classList.add("replay");
-      p.innerText = "opening youtube channel";
+      p.innerText = "opening youtube";
       texts.appendChild(p);
       console.log("opening youtube");
       window.open("https://www.youtube.com");
