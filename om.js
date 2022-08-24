@@ -39,8 +39,8 @@ recognition.addEventListener("result", (e) => {
       p = document.createElement("p");
       p.classList.add("replay");
       p.innerText = "OM SHENDE";
-       console.log("opening Instagram");
-      window.open("https://www.Instagram.com/omn_shende?utm_source=qr");
+       console.log("My Boss");
+      window.open("https://api.Whatsapp.com/send?phone=919359086635");
       texts.appendChild(p);
     }
     if (text.includes("open YouTube")) {
