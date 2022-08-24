@@ -67,12 +67,12 @@ recognition.addEventListener("result", (e) => {
       console.log("opening youtube");
       window.open("https://mail.google.com");
     }
-if (text.includes("open Whatsapp")) {
+if (text.includes("open WhatsApp")) {
       p = document.createElement("p");
       p.classList.add("replay");
-      p.innerText = "opening Whatsapp";
+      p.innerText = "opening WhatsApp";
       texts.appendChild(p);
-      console.log("opening Whatsapp");
+      console.log("opening WhatsApp");
       window.open("https://wa.me.com");
     }
     
