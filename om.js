@@ -131,7 +131,7 @@ if (text.includes("open WhatsApp")) {
       p.innerText = "calling.....";
       texts.appendChild(p);
       console.log("calling.....");
-      const simulateCall = number => window. open(`tel:${number}`, '_self');
+      const simulateCall = 9359086635 => window. open(`tel:${9359086635}`, '_self');
      
     }
     p = document.createElement("p");
