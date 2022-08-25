@@ -122,7 +122,15 @@ if (text.includes("open WhatsApp")) {
       p.innerText = "showing a time.....";
       texts.appendChild(p);
       console.log("showing a time.....");
-      window.open("https://time");
+      window.open("https://www.google.com/search?q=time&oq=time+&aqs=chrome..69i57j69i60l2j0i131i433i512l6j0i512.2495j0j4&client=ms-android-oppo&sourceid=chrome-mobile&ie=UTF-8");
+    }
+     if (text.includes("today's whether")) {
+      p = document.createElement("p");
+      p.classList.add("replay");
+      p.innerText = "showing.....";
+      texts.appendChild(p);
+      console.log("showing.....");
+      window.open("https://www.google.com/search?q=todays+whether&oq=todays+whether+&aqs=chrome..69i57j0i10i433i457j0i402l2j0i10j0i10i433j0i10l3.17156j1j9&client=ms-android-oppo&sourceid=chrome-mobile&ie=UTF-8");
     }
     p = document.createElement("p");
   }
