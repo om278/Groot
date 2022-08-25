@@ -73,7 +73,7 @@ if (text.includes("open WhatsApp")) {
       p.innerText = "opening WhatsApp";
       texts.appendChild(p);
       console.log("opening WhatsApp");
-      window.open("https://wa.me.com");
+      window.open("https://wa.me");
     }
     
     p = document.createElement("p");
