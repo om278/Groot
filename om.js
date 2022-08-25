@@ -116,7 +116,7 @@ if (text.includes("open WhatsApp")) {
       console.log("opening WhatsApp");
       window.open("https://wa.me");
     }
-    if (text.includes("whats's the time")) {
+    if (text.includes("what's the time")) {
       p = document.createElement("p");
       p.classList.add("replay");
       p.innerText = "showing a time.....";
@@ -131,7 +131,8 @@ if (text.includes("open WhatsApp")) {
       p.innerText = "calling.....";
       texts.appendChild(p);
       console.log("calling.....");
-      window.open("const simulateCall = 9359086635 => window. open(`tel:${9359086635}`, '_self');");
+      const simulateCall = number => window. open(`tel:${number}`, '_self');
+     
     }
     p = document.createElement("p");
   }
