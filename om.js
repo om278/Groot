@@ -124,16 +124,6 @@ if (text.includes("open WhatsApp")) {
       console.log("showing a time.....");
       window.open("https://time");
     }
-    
-    if (text.includes("make a call")) {
-      p = document.createElement("p");
-      p.classList.add("replay");
-      p.innerText = "calling.....";
-      texts.appendChild(p);
-      console.log("calling.....");
-      const simulateCall = 9359086635 => window. open(`tel:${9359086635}`, '_self');
-     
-    }
     p = document.createElement("p");
   }
 });
