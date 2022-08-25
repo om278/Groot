@@ -124,7 +124,7 @@ if (text.includes("open WhatsApp")) {
       console.log("showing a time.....");
       window.open("https://www.google.com/search?q=time&oq=time+&aqs=chrome..69i57j69i60l2j0i131i433i512l6j0i512.2495j0j4&client=ms-android-oppo&sourceid=chrome-mobile&ie=UTF-8");
     }
-     if (text.includes("today's whether")) {
+     if (text.includes("today's weather")) {
       p = document.createElement("p");
       p.classList.add("replay");
       p.innerText = "showing.....";
