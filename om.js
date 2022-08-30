@@ -92,12 +92,12 @@ recognition.addEventListener("result", (e) => {
       console.log("opening Instagram");
       window.open("https://www.Instagram.com");
     }
-     if (text.includes("open facebook")) {
+     if (text.includes("open Facebook")) {
       p = document.createElement("p");
       p.classList.add("replay");
-      p.innerText = "opening facebook Boss";
+      p.innerText = "Opening Facebook Boss";
       texts.appendChild(p);
-      console.log("opening facebook");
+      console.log("Opening Facebook");
       window.open("https://www.facebook.com");
     }
     if (text.includes("open email")) {
