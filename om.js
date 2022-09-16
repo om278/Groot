@@ -105,7 +105,7 @@ recognition.addEventListener("result", (e) => {
       p.classList.add("replay");
       p.innerText = "opening email";
       texts.appendChild(p);
-      console.log("opening youtube");
+      console.log("opening email");
       window.open("https://mail.google.com");
     }
 if (text.includes("open WhatsApp")) {
