@@ -116,6 +116,14 @@ if (text.includes("open WhatsApp")) {
       console.log("opening WhatsApp");
       window.open("https://wa.me");
     }
+    if (text.includes("open LinkedIn")) {
+      p = document.createElement("p");
+      p.classList.add("replay");
+      p.innerText = "opening LinkedIn";
+      texts.appendChild(p);
+      console.log("opening LinkedIn");
+      window.open("https://linkedin.com");
+    }
     if (text.includes("what's the time")) {
       p = document.createElement("p");
       p.classList.add("replay");
