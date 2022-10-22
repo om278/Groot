@@ -156,7 +156,14 @@ if (text.includes("open WhatsApp")) {
     }
 
 
-
+if (text.includes('calculator') || text.includes('open calculator')) {
+      p = document.createElement("p");
+      p.classList.add("replay");
+      p.innerText = "showing.....";
+      texts.appendChild(p);
+      console.log("showing.....");
+      window.open("https://www.calculator.com/");
+    }
 
 
 
