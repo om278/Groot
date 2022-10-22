@@ -1,4 +1,4 @@
-const btn = document.querySelector('.talk');
+const texts = document.querySelector(".texts");
 const content = document.querySelector('.content');
 
 function speak(sentence) {
