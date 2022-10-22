@@ -24,9 +24,7 @@ recognition.addEventListener("result", (e) => {
       texts.appendChild(p);
     }
 
-	 if (
-      text.includes('hey') ||
-      text.includes('hello')) 
+	 if (text.includes('hey') || text.includes('hello')) 
     ) {
       p = document.createElement("p");
       p.classList.add("replay");
@@ -179,7 +177,7 @@ if (text.includes("open WhatsApp")) {
 
 
 
-	 if (text.includes('wikipedia')) {
+	 if (text.includes('Wikipedia')) {
       p = document.createElement("p");
       p.classList.add("replay");
       p.innerText = "showing.....";
