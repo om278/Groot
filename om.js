@@ -1,41 +1,4 @@
 const texts = document.querySelector(".texts");
-const content = document.querySelector('.content');
-
-function speak(sentence) {
-    const text_speak = new SpeechSynthesisUtterance(sentence);
-
-    text_speak.rate = 1;
-    text_speak.pitch = 1;
-
-    window.speechSynthesis.speak(text_speak);
-}
-
-function wishMe() {
-    var day = new Date();
-    var hr = day.getHours();
-
-    if(hr >= 0 && hr < 12) {
-        speak("Good Morning Boss");
-    }
-
-    else if(hr == 12) {
-        speak("Good noon Boss");
-    }
-
-    else if(hr > 12 && hr <= 17) {
-        speak("Good Afternoon Boss");
-    }
-
-    else {
-        speak("Good Evening Boss");
-    }
-}
-
-window.addEventListener('load', ()=>{
-    speak("Activating Jarvii");
-    speak("Going online");
-    wishMe();
-})
 
 const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
 const recognition = new SpeechRecognition();
@@ -47,7 +10,7 @@ recognition.onresult = (event) => {
     speakThis(transcript.toLowerCase());
 }
 
-btn.addEventListener('click', ()=>{
+texts.addEventListener('click', ()=>{
     recognition.start();
 })
 
