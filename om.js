@@ -146,7 +146,7 @@ if (text.includes("open WhatsApp")) {
 
 
 
-	 if (text.includes('what is') || text.includes('who is') || text.includes('what are') || text.includes(' ')) {
+	 if (text.includes('what is') || text.includes('who is') || text.includes('what are') || text.includes('search')) {
       p = document.createElement("p");
       p.classList.add("replay");
       p.innerText = "showing.....";
