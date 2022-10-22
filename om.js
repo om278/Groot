@@ -194,7 +194,7 @@ if (text.includes("open WhatsApp")) {
       p.innerText = "showing.....";
       texts.appendChild(p);
       console.log("showing.....");
-      window.open('Calculator:///')
+      window.open("https://Calculator.com"')
     }
 
 
